@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('avitoHeadroom')
+        .module('avitoHeadroom',[])
         .directive('avitoHeadroom', headroom);
     headroom.$inject = ['$timeout', '$window', 'screenSize'];
     function headroom($timeout, $window, screenSize) {
