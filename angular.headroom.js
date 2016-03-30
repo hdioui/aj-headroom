@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.core')
+        .module('avitoHeadroom')
         .directive('avitoHeadroom', headroom);
     scroll.$inject = ['$timeout', '$window', 'screenSize'];
     function headroom($timeout, $window, screenSize) {

@@ -1,12 +1,12 @@
 {
   "name": "aj-headroom",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "homepage": "https://github.com/hdioui/aj-headroom",
   "authors": [
     "Abdeljalil <abdeljalil.h@avito.ma>"
   ],
   "description": "",
-  "main": "headroom.js",
+  "main": ["headroom.js","angular.headroom.js"],
   "moduleType": [],
   "license": "MIT",
   "ignore": [
