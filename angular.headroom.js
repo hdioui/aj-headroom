@@ -4,7 +4,7 @@
     angular
         .module('avitoHeadroom')
         .directive('avitoHeadroom', headroom);
-    scroll.$inject = ['$timeout', '$window', 'screenSize'];
+    headroom.$inject = ['$timeout', '$window', 'screenSize'];
     function headroom($timeout, $window, screenSize) {
         return {
             restrict: 'EA',
