@@ -2,10 +2,10 @@
     'use strict';
 
     angular
-        .module('avitoHeadroom',[])
-        .directive('avitoHeadroom', headroom);
-    headroom.$inject = ['$timeout', '$window', 'screenSize'];
-    function headroom($timeout, $window, screenSize) {
+        .module('aj.headroom',[])
+        .directive('ajHeadroom', headroom);
+    headroom.$inject = ['$window', 'screenSize'];
+    function headroom($window, screenSize) {
         return {
             restrict: 'EA',
             scope: {
